@@ -9,7 +9,7 @@ http://www.tooplate.com/view/2096-individual
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 19px;
-	font-weight: 300;
+	font-weight: 400;
 	overflow-x: hidden;
 }
 
@@ -79,7 +79,7 @@ h2 {
 }
 
 h3 {
-	color: green;
+	
 	padding-bottom: 10px;
 }
 
@@ -89,6 +89,10 @@ h5 {
 	font-weight: bold;
 
 }
+li {
+	
+}
+
 
 .tm-bg-white-transparent {
 	margin: 5px;
@@ -270,4 +274,5 @@ h5 {
 		margin-bottom: 50px;
 	}
 }
+
 

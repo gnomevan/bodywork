@@ -92,9 +92,7 @@ h5 {
 li {
 	
 }
-.headshot {
-	margin-top: 20px;
-}
+
 
 .tm-bg-white-transparent {
 	margin: 5px;
@@ -276,6 +274,14 @@ li {
 		margin-bottom: 50px;
 	}
 }
+.headshot {
+	margin: 20px;
+	float:left;
+}
+.biocol{
+	width: 80%;
+}
+
 
 
 

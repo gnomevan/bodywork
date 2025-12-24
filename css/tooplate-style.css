@@ -92,7 +92,9 @@ h5 {
 li {
 	
 }
-
+.headshot {
+margin:20px;
+}
 
 .tm-bg-white-transparent {
 	margin: 5px;
@@ -274,5 +276,6 @@ li {
 		margin-bottom: 50px;
 	}
 }
+
 
 

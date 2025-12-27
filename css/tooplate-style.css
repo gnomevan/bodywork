@@ -282,29 +282,29 @@ li {
 }
 .headshot {
 	margin: 20px;
-	float:left;
-	opacity:1;
+	float: left;
+	opacity: 1;
 	background-color: white;
 }
 .biocol{
 	width: 90%;
 	
   	background-color: rgba(255, 255, 255, 0.8);
-	padding:10px;
-	margin:20px;
+	padding: 10px;
+	margin: 20px;
 }
 .biohead{
-	margin-top:15px;
-	max-width:80%;
+	margin-top: 15px;
+	max-width: 80%;
 	
 }
 .headshot img{
-	opacity:1;
-	background:white;
+	opacity: 1;
+	background: white;
 }
 @media (min-width: 1200px) {
   .col-xl-6 {
-	  max-width:80%;
+	  max-width: 80%;
   }
 
 .e-bg-white-transparent {
@@ -312,7 +312,13 @@ li {
 	padding: 40px;
  	background-color: rgba(255, 255, 255, 0.8);
 	width: 100%;
+	max-width: 800px;
 	margin: 20px;
+
+	
+}
+.biocol p{
+	padding: 20px;
 }
 
 

@@ -280,7 +280,10 @@ li {
 }
 .biocol{
 	width: 80%;
+	background-color: white;
+	opacity: 0.8;
 }
+
 
 
 

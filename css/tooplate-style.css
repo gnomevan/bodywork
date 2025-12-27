@@ -288,15 +288,13 @@ li {
 }
 .biocol{
 	width: 90%;
-	 /* Use RGBA for transparency */
-  	background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
- 	 /* Fallback for older browsers if needed (fully opaque background) */
-  	background-color: rgb(255, 255, 255);
+	
+  	background-color: rgba(255, 255, 255, 0.8);
 	padding:10px;
 	margin:20px;
 }
-.headshot header{
-	padding-top:15px;
+.biohead{
+	margin-top:15px;
 	max-width:80%;
 	
 }
@@ -312,13 +310,11 @@ li {
 .e-bg-white-transparent {
 	margin: 5px;
 	padding: 40px;
-	 /* Use RGBA for transparency */
- 	 background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
-  	/* Fallback for older browsers if needed (fully opaque background) */
-  	background-color: rgb(255, 255, 255);
+ 	background-color: rgba(255, 255, 255, 0.8);
 	width: 100%;
 	margin: 20px;
 }
+
 
 
 

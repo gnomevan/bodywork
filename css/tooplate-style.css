@@ -82,7 +82,7 @@ h2 {
 h3 {
 	
 	padding-bottom: 10px;
-	text-shadow: 2px 2px 8px #000000;
+	
 }
 
 h4{
@@ -288,8 +288,10 @@ li {
 }
 .biocol{
 	width: 90%;
-	background-color: white;
-	opacity: 0.8;
+	 /* Use RGBA for transparency */
+  	background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+ 	 /* Fallback for older browsers if needed (fully opaque background) */
+  	background-color: rgb(255, 255, 255);
 	padding:10px;
 	margin:20px;
 }
@@ -310,10 +312,14 @@ li {
 .e-bg-white-transparent {
 	margin: 5px;
 	padding: 40px;
-	background-color: #ffffffc4;
+	 /* Use RGBA for transparency */
+ 	 background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+  	/* Fallback for older browsers if needed (fully opaque background) */
+  	background-color: rgb(255, 255, 255);
 	width: 100%;
 	margin: 20px;
 }
+
 
 
 

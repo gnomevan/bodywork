@@ -277,11 +277,17 @@ li {
 .headshot {
 	margin: 20px;
 	float:left;
+	opacity:1;
 }
 .biocol{
-	width: 80%;
+	width: 90%;
 	background-color: white;
 	opacity: 0.8;
+	padding:10px;
+}
+.headshot header{
+	padding-top:15px;
+	
 }
 
 

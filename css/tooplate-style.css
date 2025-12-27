@@ -301,11 +301,6 @@ li {
 	opacity: 1;
 	background: white;
 }
-@media (min-width: 1200px) {
-  .col-xl-6 {
-	  max-width: 80%;
-  }
-}
 .e-fix {
 	
 	width: 100%;
@@ -314,9 +309,10 @@ li {
 
 	
 }
-.biocol p{
+.biocol p {
 	padding: 20px;
 }
+
 
 
 

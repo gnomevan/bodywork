@@ -307,12 +307,10 @@ li {
 	  max-width: 80%;
   }
 
-.e-bg-white-transparent {
-	margin: 5px;
-	padding: 40px;
- 	background-color: rgba(255, 255, 255, 0.8);
+.e-fix {
+	
 	width: 100%;
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 20px;
 
 	
@@ -320,6 +318,7 @@ li {
 .biocol p{
 	padding: 20px;
 }
+
 
 
 

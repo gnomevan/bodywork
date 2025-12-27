@@ -296,6 +296,15 @@ li {
 	  max-width:80%;
   }
 
+.e-bg-white-transparent {
+	margin: 5px;
+	padding: 40px;
+	background-color: #ffffffc4;
+	width: 100%;
+	margin: 20px;
+}
+
+
 
 
 

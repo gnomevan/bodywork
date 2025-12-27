@@ -289,11 +289,10 @@ li {
 }
 .headshot header{
 	padding-top:15px;
-	
+	max-width:80%;
 	
 }
 .headshot img{
-	max-width:80%;
 	opacity:1;
 	background:white;
 }
@@ -309,6 +308,7 @@ li {
 	width: 100%;
 	margin: 20px;
 }
+
 
 
 

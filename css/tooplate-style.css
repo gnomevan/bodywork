@@ -290,6 +290,10 @@ li {
 .headshot header{
 	padding-top:15px;
 	
+	
+}
+.headshot img{
+	max-width:80%;
 }
 @media (min-width: 1200px) {
   .col-xl-6 {
@@ -303,6 +307,7 @@ li {
 	width: 100%;
 	margin: 20px;
 }
+
 
 
 

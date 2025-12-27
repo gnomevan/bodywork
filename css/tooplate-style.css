@@ -294,6 +294,8 @@ li {
 }
 .headshot img{
 	max-width:80%;
+	opacity:1;
+	background:white;
 }
 @media (min-width: 1200px) {
   .col-xl-6 {
@@ -307,6 +309,7 @@ li {
 	width: 100%;
 	margin: 20px;
 }
+
 
 
 

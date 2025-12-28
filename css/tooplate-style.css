@@ -228,6 +228,7 @@ li {
 .btn-danger {
 	font-size: 1.5rem;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #C66666;
@@ -317,6 +318,7 @@ ul{
 	padding-left: 20px;
 	font-size: 16px;
 }
+
 
 
 

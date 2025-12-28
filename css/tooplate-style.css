@@ -228,8 +228,6 @@ li {
 .btn-danger {
 	font-size: 1.5rem;
 	margin-top: 20px;
-	padding-left: 60px;
-	padding-right: 60px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #C66666;
@@ -257,7 +255,8 @@ li {
 		padding-right: 5px;
 	}
 
-	.tm-address-box { padding-left: 10px; }
+	.tm-address-box { padding-left: 10px; 
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -279,6 +278,7 @@ li {
 		margin-bottom: 50px;
 	}
 }
+
 .headshot {
 	margin: 20px;
 	float: left;
@@ -289,30 +289,31 @@ li {
 	width: 90%;
 	
   	background-color: rgba(255, 255, 255, 0.8);
-	padding: 10px;
 	margin: 20px;
 }
 .biohead{
 	margin-top: 15px;
-	max-width: 80%;
+	max-width: 90%;
 	
 }
 .headshot img{
 	opacity: 1;
 	background: white;
+	max-width:100%;
 }
 .e-fix {
 	
 	width: 100%;
 	max-width: 1200px;
-	margin: 20px;
-
-	
 }
 .biocol p {
 	padding: 20px;
 }
 
+ul{
+	padding-left: 20px;
+	font-size: 16px;
+}
 
 
 

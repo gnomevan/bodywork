@@ -284,6 +284,7 @@ li {
 
 .headshot {
 	margin-bottom: 20px;
+	margin-right: 20px;
 	float: left;
 	opacity: 1;
 	background-color: white;
@@ -308,7 +309,7 @@ li {
 	max-width:100%;
 }
 .e-fix {
-	
+	font-size: 16px;
 	width: 100%;
 	max-width: 1200px;
 	padding-right:10px;
@@ -325,6 +326,9 @@ ul{
 	margin-bottom: 20px;
 }
 
+.rates{
+	margin-right:20px;
+}
 
 
 

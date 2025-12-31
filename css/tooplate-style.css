@@ -276,6 +276,7 @@ li {
 	}
 	.tm-page-4-content { 
 		margin-bottom: 50px;
+		margin-right: 15px;
 	}
 	h1{
 		font-size: 2.5rem;
@@ -291,8 +292,11 @@ li {
 .biocol{
 	width: 90%;
 	
-  	background-color: rgba(255, 255, 255, 0.8);
+  	
 	margin: 20px;
+}
+.biorow{
+	background-color: rgba(255, 255, 255, 0.8);
 }
 .biohead{
 	margin-top: 15px;
@@ -308,6 +312,7 @@ li {
 	
 	width: 100%;
 	max-width: 1200px;
+	padding-right:10px;
 }
 .biocol p {
 	padding: 20px;
@@ -317,6 +322,7 @@ ul{
 	padding-left: 20px;
 	font-size: 16px;
 }
+
 
 
 

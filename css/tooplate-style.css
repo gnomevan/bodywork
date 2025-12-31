@@ -284,15 +284,13 @@ li {
 }
 
 .headshot {
-	margin: 20px;
+	margin-bottom: 20px;
 	float: left;
 	opacity: 1;
 	background-color: white;
 }
 .biocol{
 	width: 90%;
-	
-  	
 	margin: 20px;
 }
 .biorow{
@@ -315,13 +313,14 @@ li {
 	padding-right:10px;
 }
 .biocol p {
-	padding: 20px;
+	
 }
 
 ul{
 	padding-left: 20px;
 	font-size: 16px;
 }
+
 
 
 

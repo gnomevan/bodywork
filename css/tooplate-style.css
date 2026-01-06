@@ -86,7 +86,7 @@ h3 {
 }
 
 h4{
-	text-shadow: 2px 2px 8px #000000;
+	text-shadow: 4px 4px 10px #000000;
 }
 	
 h5 {
@@ -234,8 +234,8 @@ li {
 }
 .btn-small {
 	font-size: 1rem;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	background-color: #C66666;
@@ -337,6 +337,7 @@ ul{
 .rates{
 	margin-right:20px;
 }
+
 
 
 

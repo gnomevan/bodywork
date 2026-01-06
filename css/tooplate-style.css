@@ -232,7 +232,15 @@ li {
 	background-color: #C66666;
 	border-color: #C66666;
 }
-
+.btn-small {
+	font-size: 1rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #C66666;
+	border-color: #C66666;
+}
 .row {
 	display: -ms-flexbox;
 	display: flex;
@@ -329,6 +337,7 @@ ul{
 .rates{
 	margin-right:20px;
 }
+
 
 
 

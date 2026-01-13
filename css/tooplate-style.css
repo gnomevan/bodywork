@@ -348,7 +348,7 @@ ul{
 }
 
 .form-label{
-
+	color:#525e6a;
 }
 
 .form-container{
@@ -382,8 +382,10 @@ ul{
 .bold{
 	font-weight: bold;
 }
+.thebox{
+	accent-color: rgba(255, 255, 255, 0.0);
 
-
+}
 
 
 

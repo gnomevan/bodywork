@@ -218,9 +218,12 @@ li {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	color: white;
+	color: #a97e7e;
 	text-align:center;
 	width:100%;
+	font-weight: lighter;
+	margin-top: 20px;
+	font-size: medium;
 }
 
 .btn-danger {
@@ -344,15 +347,41 @@ ul{
 	font-weight: lighter;
 }
 
+.form-label{
 
+}
 
+.form-container{
+	max-width: 400px;
+}
+.form-itself{
+	max-width: 90%;
+}
+.form-control textarea{
+	background-color: rgba(255, 255, 255, 0.0);
+}
 
+.field-input{
+	
+	background-color: rgba(255, 255, 255, 0.0);
+	border-color: #a97e7e;
+	border-width:1px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	max-width: 90%;
 
+}
+.formbutt{
+	color:black;
+	border-color: #a97e7e;
+	border-width:1px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: light;
+	margin-bottom: 20px;
+}
 
-
-
-
-
+.bold{
+	font-weight: bold;
+}
 
 
 

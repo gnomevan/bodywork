@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Evan Paul</title>
+    <meta name="description" content="Evan Paul is a bodyworker, artist, and sensitive listener based in Nicasio, California.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="logo">Evan Paul</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="bodywork.html">Bodywork</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="spaces.html">Sensory Safe Spaces</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="parallax-hero bg-leaf" style="min-height: 50vh;">
+    <div class="parallax-hero-content text-light">
+        <h1 class="hero-title">About</h1>
+    </div>
+</section>
+
+<!-- Main Content -->
+<section class="page-content">
+    <div class="content-inner">
+        
+        <img src="img/evanhead.jpg" alt="Evan Paul, somatic bodyworker and environmental designer in Nicasio, California" class="about-image">
+        
+        <p>I'm a bodyworker, an artist, and a sensitive listener.</p>
+        
+        <p>My obsession with understanding how things work eventually led me to the nervous system—that magical, tree-like structure running through our bodies and somehow reaching beyond them. It is our connection to the world.</p>
+        
+        <p>I see us as nexus points embedded in a web. Touch is a sacred gateway where two bodies gain direct access to the feedback loops that unite us. Through this lens, I listen to bodies to help them let go. I listen to spaces and materials to make environments that welcome sensitive systems.</p>
+        
+        <p>I'm based in Nicasio, California.</p>
+
+        <div style="clear: both;"></div>
+        
+        <div class="divider"></div>
+
+        <p style="text-align: center;">
+            <a href="bodywork.html">For Bodies</a> · 
+            <a href="teaching.html">For Brains</a> · 
+            <a href="spaces.html">For Spaces</a>
+        </p>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Evan Paul · Nicasio, California</p>
+    <p style="margin-top: 0.5rem;"><a href="mailto:evan@evanpaul.org">Contact</a></p>
+</footer>
+
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.nav-links').classList.toggle('active');
+});
+</script>
+</body>
+</html>

@@ -445,10 +445,16 @@ a {
 .video-container {
     position: relative;
     width: 100%;
+    max-width: 800px;
     padding-bottom: 56.25%;
-    margin: var(--spacing-lg) 0;
+    margin: var(--spacing-lg) auto;
     border-radius: 4px;
     overflow: hidden;
+}
+
+.video-container-large {
+    max-width: none;
+    padding-bottom: 50%;
 }
 
 .video-container iframe {

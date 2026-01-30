@@ -415,6 +415,191 @@ a {
     font-weight: 500;
 }
 
+.pricing-detail {
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    margin-bottom: var(--spacing-sm);
+}
+
+.pricing-travel {
+    margin-top: var(--spacing-sm);
+    margin-bottom: 0.25rem;
+}
+
+.pricing-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+}
+
+.pricing-list li {
+    margin-bottom: 0.25rem;
+}
+
+/* ================================
+   VIDEO EMBED
+   ================================ */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin: var(--spacing-lg) 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* ================================
+   CONTACT FORM
+   ================================ */
+
+.contact-form {
+    margin-top: var(--spacing-md);
+    max-width: 500px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: var(--spacing-md);
+}
+
+.form-label-text {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--color-text-soft);
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--color-text);
+    background: var(--color-bg);
+    border: 1px solid var(--color-accent-soft);
+    border-radius: 4px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(139, 125, 107, 0.15);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: var(--spacing-md);
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    cursor: pointer;
+}
+
+.form-checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--color-accent);
+    cursor: pointer;
+}
+
+/* Inline form variant */
+.form-inline-title {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact-form-inline {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-form-inline .form-input-sm {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    border: 1px solid var(--color-accent-soft);
+    border-radius: 4px;
+    background: var(--color-bg);
+    font-family: var(--font-body);
+    color: var(--color-text);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form-inline .form-input-sm:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(139, 125, 107, 0.15);
+}
+
+.contact-form-inline .form-input-sm::placeholder {
+    color: var(--color-text-light);
+}
+
+.contact-form-inline .input-name {
+    width: 120px;
+}
+
+.contact-form-inline .input-email {
+    width: 180px;
+}
+
+.contact-form-inline .input-message {
+    width: 200px;
+}
+
+.contact-form-inline .btn-sm-inline {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-family: var(--font-display);
+    font-weight: 500;
+    background: var(--color-text);
+    color: var(--color-bg);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.contact-form-inline .btn-sm-inline:hover {
+    background: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+    .contact-form-inline {
+        flex-direction: column;
+    }
+
+    .contact-form-inline .form-input-sm {
+        width: 100%;
+    }
+
+    .contact-form-inline .btn-sm-inline {
+        width: 100%;
+    }
+}
+
 /* ================================
    PROJECTS
    ================================ */
@@ -527,6 +712,47 @@ a {
     margin-top: 0;
 }
 
+.list-column h3 {
+    margin-top: 0;
+}
+
+.list-heading {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+}
+
+/* Remove border from cards on alt-bg since bg is already different */
+.alt-bg .list-card {
+    background: var(--color-bg);
+}
+
+/* Card-style list columns */
+.list-card {
+    background: var(--color-bg);
+    padding: var(--spacing-md);
+    border-radius: 4px;
+}
+
+.list-card ul {
+    margin-bottom: 0;
+}
+
+.list-card-yes {
+    border-left: 3px solid var(--color-accent);
+}
+
+.list-card-no {
+    border-left: 3px solid var(--color-accent-soft);
+    opacity: 0.85;
+}
+
+.list-card-neutral {
+    border-left: 3px solid rgba(139, 125, 107, 0.3);
+}
+
 @media (max-width: 768px) {
     .two-column-lists {
         grid-template-columns: 1fr;
@@ -542,6 +768,77 @@ a {
     height: 1px;
     background: rgba(0,0,0,0.08);
     margin: var(--spacing-lg) 0;
+}
+
+/* ================================
+   INTRO TEXT STYLING
+   ================================ */
+
+/* Intro headline */
+.intro-headline {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 5vw, 2.4rem);
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+}
+
+.intro-subhead {
+    font-size: 1.15rem;
+    color: var(--color-text-soft);
+    margin-bottom: var(--spacing-lg);
+}
+
+.centered-poetic {
+    clear: both;
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--color-text-soft);
+    margin: var(--spacing-md) auto;
+    line-height: 1.8;
+}
+
+/* Section headings - unified style */
+.section-label {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
+}
+
+.intro-section {
+    margin-bottom: var(--spacing-lg);
+}
+
+.intro-section p:last-child {
+    margin-bottom: 0;
+}
+
+/* Shared: decorative icon divider */
+.decorative-break {
+    text-align: center;
+    margin: var(--spacing-sm) 0;
+    user-select: none;
+}
+
+.decorative-icon {
+    width: 40px;
+    height: auto;
+    opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+    .callout-float {
+        float: none;
+        width: 100%;
+        margin: 0 0 var(--spacing-md) 0;
+        border-left: 3px solid var(--color-accent-soft);
+        border-radius: 0 4px 4px 0;
+    }
 }
 
 /* ================================

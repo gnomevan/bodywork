@@ -10,7 +10,7 @@
     --color-text-light: #8a847a;
     --color-accent: #8b7d6b;
     --color-accent-soft: #b8a99a;
-    --color-overlay: rgba(45, 42, 38, 0.55);
+    --color-overlay: rgba(45, 42, 38, 0.35);
     --color-overlay-light: rgba(250, 249, 247, 0.92);
     --font-display: 'Cormorant Garamond', Georgia, serif;
     --font-body: 'Outfit', -apple-system, sans-serif;
@@ -207,6 +207,7 @@ nav.nav-dark .nav-toggle span {
 .bg-orchid { background-image: url('../img/purple.jpg'); }
 .bg-flower { background-image: url('../img/flowerhandblur2.jpg'); }
 .bg-swan { background-image: url('../img/swan.jpg'); }
+.bg-redbuds { background-image: url('../img/redbuds.jpg'); }
 
 /* ================================
    PARALLAX DIVIDERS

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NYZ0M7GKR"></script>
@@ -39,6 +39,9 @@
             <li><a href="../about/">About</a></li>
             <li><a href="../contact/">Contact</a></li>
         </ul>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <span class="theme-icon">☽</span>
+        </button>
     </div>
 </nav>
 
@@ -91,6 +94,30 @@
 document.querySelector('.nav-toggle').addEventListener('click', function() {
     this.classList.toggle('active');
     document.querySelector('.nav-links').classList.toggle('active');
+});
+
+// Theme toggle
+const themeToggle = document.querySelector('.theme-toggle');
+const themeIcon = document.querySelector('.theme-icon');
+const html = document.documentElement;
+
+const savedTheme = localStorage.getItem('theme');
+const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (savedTheme) {
+    html.setAttribute('data-theme', savedTheme);
+    themeIcon.textContent = savedTheme === 'dark' ? '☀' : '☽';
+} else if (systemPrefersDark) {
+    html.setAttribute('data-theme', 'dark');
+    themeIcon.textContent = '☀';
+}
+
+themeToggle.addEventListener('click', function() {
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    themeIcon.textContent = newTheme === 'dark' ? '☀' : '☽';
 });
 </script>
 </body>

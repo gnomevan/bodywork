@@ -22,6 +22,19 @@
     --spacing-sm: 1rem;
 }
 
+/* Dark Mode */
+[data-theme="dark"] {
+    --color-bg: #1a1816;
+    --color-bg-soft: #242120;
+    --color-text: #e8e6e3;
+    --color-text-soft: #b5b0a8;
+    --color-text-light: #8a857d;
+    --color-accent: #c4b5a3;
+    --color-accent-soft: #9a8b7a;
+    --color-overlay: rgba(0, 0, 0, 0.5);
+    --color-overlay-light: rgba(26, 24, 22, 0.92);
+}
+
 /* ================================
    RESET & BASE
    ================================ */
@@ -43,6 +56,7 @@ body {
     line-height: 1.7;
     color: var(--color-text);
     background-color: var(--color-bg);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* ================================
@@ -60,6 +74,12 @@ nav {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease;
+}
+
+[data-theme="dark"] nav {
+    background: rgba(26, 24, 22, 0.92);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
 nav.nav-dark {
@@ -148,6 +168,31 @@ nav.nav-dark .nav-toggle span {
 
 .nav-toggle.active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--color-text-soft);
+    transition: color 0.2s ease, transform 0.2s ease;
+    margin-left: 1rem;
+}
+
+.theme-toggle:hover {
+    color: var(--color-text);
+    transform: scale(1.1);
+}
+
+nav.nav-dark .theme-toggle {
+    color: rgba(250, 249, 247, 0.7);
+}
+
+nav.nav-dark .theme-toggle:hover {
+    color: var(--color-bg);
 }
 
 /* ================================
@@ -1030,5 +1075,113 @@ footer a:hover {
 
     .parallax-hero-content {
         padding: 1rem;
+    }
+}
+
+/* ================================
+   DARK MODE OVERRIDES
+   ================================ */
+
+[data-theme="dark"] .form-input {
+    background: var(--color-bg-soft);
+    border-color: var(--color-text-light);
+}
+
+[data-theme="dark"] .form-input:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(196, 181, 163, 0.2);
+}
+
+[data-theme="dark"] .testimonial {
+    background: var(--color-bg-soft);
+    border-left-color: var(--color-accent);
+}
+
+[data-theme="dark"] .pricing {
+    background: var(--color-bg-soft);
+}
+
+[data-theme="dark"] .btn {
+    background: #2d2a26;
+    color: #e8e6e3;
+}
+
+[data-theme="dark"] .btn:hover {
+    background: var(--color-accent);
+    color: #1a1816;
+}
+
+[data-theme="dark"] .btn-outline {
+    background: transparent;
+    color: var(--color-text);
+    border-color: var(--color-accent);
+}
+
+[data-theme="dark"] .parallax-hero-content.text-light {
+    color: #faf9f7;
+}
+
+[data-theme="dark"] .parallax-hero-content.text-light .hero-subtitle {
+    color: rgba(250, 249, 247, 0.85);
+}
+
+/* Keep nav-dark light in dark mode */
+[data-theme="dark"] nav.nav-dark .logo,
+[data-theme="dark"] nav.nav-dark .nav-links a {
+    color: #faf9f7;
+}
+
+[data-theme="dark"] nav.nav-dark .theme-toggle {
+    color: rgba(250, 249, 247, 0.7);
+}
+
+/* Keep hero links light in dark mode */
+[data-theme="dark"] .hero-links a {
+    color: #faf9f7;
+    border-color: rgba(250, 249, 247, 0.4);
+    background: rgba(250, 249, 247, 0.08);
+}
+
+[data-theme="dark"] .hero-links a:hover {
+    background: #faf9f7;
+    color: #2d2a26;
+    border-color: #faf9f7;
+}
+
+/* Keep footer-hero light in dark mode */
+[data-theme="dark"] .footer-hero {
+    color: #faf9f7;
+}
+
+[data-theme="dark"] .footer-hero a {
+    color: #faf9f7;
+}
+
+[data-theme="dark"] .footer-hero a:hover {
+    color: var(--color-accent-soft);
+}
+
+[data-theme="dark"] .divider {
+    background: rgba(255,255,255,0.1);
+}
+
+[data-theme="dark"] .contact-form-inline .form-input-sm {
+    background: var(--color-bg-soft);
+    border-color: var(--color-text-light);
+}
+
+/* Dark mode mobile nav */
+@media (max-width: 768px) {
+    [data-theme="dark"] .nav-links {
+        background: rgba(26, 24, 22, 0.98);
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    [data-theme="dark"] .nav-links li {
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    [data-theme="dark"] .nav-links a:hover {
+        background-color: rgba(255,255,255,0.05);
     }
 }

@@ -191,10 +191,15 @@ nav.nav-dark .nav-toggle span {
 
 .parallax-hero-content.text-light {
     color: var(--color-bg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .parallax-hero-content.text-light .hero-subtitle {
     color: rgba(250, 249, 247, 0.85);
+}
+
+.parallax-hero-content.text-light .hero-links a {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Parallax image backgrounds */

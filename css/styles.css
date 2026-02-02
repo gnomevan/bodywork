@@ -1093,6 +1093,10 @@ footer a:hover {
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.12);
 }
 
+.whimsy-image-lg {
+    width: 260px;
+}
+
 .whimsy-left {
     float: left;
     margin: 0.25rem var(--spacing-md) var(--spacing-sm) 0;

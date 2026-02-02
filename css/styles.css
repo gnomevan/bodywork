@@ -1079,6 +1079,79 @@ footer a:hover {
 }
 
 /* ================================
+   WHIMSICAL INLINE IMAGES
+   ================================ */
+
+.whimsy-block {
+    margin: var(--spacing-md) 0;
+    overflow: hidden;
+}
+
+.whimsy-image {
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.whimsy-left {
+    float: left;
+    margin: 0.25rem var(--spacing-md) var(--spacing-sm) 0;
+    transform: rotate(-2deg);
+}
+
+.whimsy-right {
+    float: right;
+    margin: 0.25rem 0 var(--spacing-sm) var(--spacing-md);
+    transform: rotate(2deg);
+}
+
+.whimsy-caption {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--color-text-soft);
+    margin-bottom: var(--spacing-sm);
+}
+
+.whimsy-center {
+    text-align: center;
+    margin: var(--spacing-lg) 0;
+}
+
+.whimsy-center .whimsy-image {
+    transform: rotate(1deg);
+}
+
+.whimsy-center .whimsy-caption {
+    margin-top: var(--spacing-sm);
+}
+
+.clear {
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .whimsy-left,
+    .whimsy-right {
+        float: none;
+        display: block;
+        margin: var(--spacing-sm) auto;
+    }
+
+    .whimsy-caption {
+        text-align: center;
+    }
+
+    .whimsy-block {
+        text-align: center;
+    }
+
+    .whimsy-block p {
+        text-align: left;
+    }
+}
+
+/* ================================
    DARK MODE OVERRIDES
    ================================ */
 

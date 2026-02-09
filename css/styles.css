@@ -320,9 +320,9 @@ nav.nav-dark .theme-toggle:hover {
 }
 
 .hero-links a:hover {
-    background: var(--color-text);
+    background: var(--color-accent);
     color: var(--color-bg);
-    border-color: var(--color-text);
+    border-color: var(--color-accent);
 }
 
 /* ================================
@@ -1222,9 +1222,9 @@ footer a:hover {
 }
 
 [data-theme="dark"] .hero-links a:hover {
-    background: #faf9f7;
+    background: var(--color-accent);
     color: #2d2a26;
-    border-color: #faf9f7;
+    border-color: var(--color-accent);
 }
 
 [data-theme="dark"] footer {

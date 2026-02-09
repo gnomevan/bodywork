@@ -261,6 +261,7 @@ nav.nav-dark .theme-toggle:hover {
 .bg-purpleflowers { background-image: url('../img/purppleflowers.jpg'); }
 .bg-huachumaflower { background-image: url('../img/huachumaflower.jpg'); }
 .bg-eyepainting { background-image: url('../img/eyepainting.jpg'); }
+.bg-hands { background-image: url('../img/handsbackground.jpg'); }
 
 /* ================================
    PARALLAX DIVIDERS
@@ -309,19 +310,19 @@ nav.nav-dark .theme-toggle:hover {
     font-family: var(--font-display);
     font-size: 1.15rem;
     font-weight: 500;
-    color: var(--color-bg);
+    color: var(--color-text);
     text-decoration: none;
     padding: 1rem 2.5rem;
-    border: 1px solid rgba(250, 249, 247, 0.4);
+    border: 1px solid var(--color-accent-soft);
     border-radius: 2px;
     transition: all 0.3s ease;
-    background: rgba(250, 249, 247, 0.08);
+    background: #f5f4f2;
 }
 
 .hero-links a:hover {
-    background: var(--color-bg);
-    color: var(--color-text);
-    border-color: var(--color-bg);
+    background: var(--color-text);
+    color: var(--color-bg);
+    border-color: var(--color-text);
 }
 
 /* ================================
@@ -908,10 +909,10 @@ a {
 
 footer {
     text-align: center;
-    padding: var(--spacing-lg) 2rem;
+    padding: var(--spacing-md) 2rem;
     font-size: 0.9rem;
     color: var(--color-text-soft);
-    background: var(--color-bg-soft);
+    background: #e8e2d9;
 }
 
 footer a {
@@ -1224,6 +1225,10 @@ footer a:hover {
     background: #faf9f7;
     color: #2d2a26;
     border-color: #faf9f7;
+}
+
+[data-theme="dark"] footer {
+    background: #0f0d0c;
 }
 
 /* Keep footer-hero light in dark mode */

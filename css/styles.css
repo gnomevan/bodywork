@@ -495,6 +495,12 @@ a {
     margin-bottom: 0.25rem;
 }
 
+.pricing-divider {
+    height: 1px;
+    background: rgba(139, 125, 107, 0.2);
+    margin: 0.75rem 0;
+}
+
 .pricing-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;

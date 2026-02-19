@@ -853,6 +853,20 @@ a {
 }
 
 /* ================================
+   OFFERINGS LIST
+   ================================ */
+
+.offerings-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.offerings-list .list-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* ================================
    TWO-COLUMN LISTS
    ================================ */
 
